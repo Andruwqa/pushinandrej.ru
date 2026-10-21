@@ -1,0 +1,35 @@
+/* Общие стили для всех страниц сайта */
+body {
+    max-width: 44em;
+    margin: 0;
+    padding: 1.5em;
+}
+ul.emoji {
+    list-style: none;
+    padding-left: 0;
+}
+ul.emoji li {
+    margin-bottom: 0.4em;
+}
+
+/* Переключалки в правом верхнем углу: для кого страница и язык */
+nav.switch {
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+    display: flex;
+    gap: 1.5em;
+}
+nav.switch span {
+    display: flex;
+    gap: 0.5em;
+}
+nav.switch b {
+    font-weight: normal;
+}
+@media (max-width: 40em) {
+    nav.switch {
+        position: static;
+        justify-content: flex-end;
+    }
+}
