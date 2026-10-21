@@ -42,3 +42,12 @@ img.photo {
     border-radius: 8px;
     margin-top: 1em;
 }
+
+/* Заглушка на внутренних страницах: «скоро здесь будут…» */
+p.placeholder {
+    border: 1px dashed #999;
+    border-radius: 8px;
+    padding: 2em 1em;
+    color: #666;
+    text-align: center;
+}
