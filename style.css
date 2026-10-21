@@ -33,3 +33,12 @@ nav.switch b {
         justify-content: flex-end;
     }
 }
+
+/* Фото на главной: небольшое, скругление 8px */
+img.photo {
+    display: block;
+    width: 128px;
+    height: 128px;
+    border-radius: 8px;
+    margin-top: 1em;
+}
